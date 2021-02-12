@@ -23,8 +23,8 @@ body {
 
     .bottom-circle {
         position: relative;
-        bottom: 500px;
-        left: 800px;
+        bottom: 560px;
+        left: 500px;
     }
 
     .city, .num-desc {
@@ -88,7 +88,7 @@ body {
 
     .top-circle {
         position: relative;
-        right: 800px;
+        right: 500px;
         bottom: 500px;
     }
 
