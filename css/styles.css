@@ -4,62 +4,197 @@ body {
     margin: 0;
 }
 
-.banner {
-    margin: 0;
+@media only screen and (min-width: 992px){
+    hr {
+        color: #f2f2f2;
+        border-style: solid;
+        height:0;
+        margin: 25px auto;
+        border-width: 1px;
+    }
+
+    .age {
+        color: #969696;
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    .bottom-circle {
+        position: relative;
+        bottom: 500px;
+        left: 800px;
+    }
+
+    .city, .num-desc {
+        font-size: 1rem;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400;
+        color: #2d3248;
+        margin-top: 10px;
+    }
+
+    .clip {
+        background-color: #fff;
+        clip-path: circle(50% at center);
+        height: 91px;
+        width: 91px;
+        position: absolute;
+        right: 130px;
+        top: 80px;
+    }
+
+    .main-square {
+        background-color: #fff;
+        border-radius: 20px;
+        position: absolute;
+        margin: auto;
+        right: 800px;
+        bottom: 300px;
+        height: 350px;
+        width: 350px;
+        overflow: hidden;
+        filter: drop-shadow(0 15mm 3rem #106870);
+    }
+
+    .name, .age {
+        display: inline;
+        font-size: 1.125rem;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    .name {
+        color: #2d3248;
+    }
+
+    .name-age {
+        margin-top: 40px;
+    }
+
+    .num-desc {
+        font-size: 0.9rem;
+    }
+
+    .stats {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .stats-name {
+        font-size: 1rem;
+    }
+
+    .top-circle {
+        position: relative;
+        right: 800px;
+        bottom: 500px;
+    }
+
+    .victor {
+        clip-path: circle(50% at center);
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 82px;
+    }
 }
 
-.bottom-circle {
-    position: relative;
-    bottom: 500px;
-    left: 800px;
-}
+@media only screen and (max-width: 375px) {
+    hr {
+        color: #f2f2f2;
+        border-style: solid;
+        height:0;
+        margin: 25px auto;
+        border-width: 1px;
+    }
 
-.city {
-    font-size: 1rem;
-    font-family: 'Kumbh Sans', sans-serif;
-}
+    .age {
+        color: #969696;
+    }
 
-.clip {
-    background-color: #fff;
-    clip-path: circle(50% at center);
-    height: 105px;
-    width: 105px;
-    position: absolute;
-    right: 120px;
-    top: 95px;
-}
+    .banner {
+        margin: 0;
+    }
 
-.main-square {
-    background-color: #fff;
-    border-radius: 20px;
-    position: absolute;
-    margin: auto;
-    right: 800px;
-    bottom: 300px;
-    height: 350px;
-    width: 350px;
-    overflow: hidden;
-}
+    .bottom-circle {
+        position: relative;
+        width: 600px;
+        left:150px;
+        bottom: 250px;
 
-.name, .age {
-    display: inline;
-    font-size: 1.125rem;
-    font-family: 'Kumbh Sans', sans-serif;
-}
+    }
 
-.name-age {
-    margin: 75px;
-}
+    .city, .num-desc {
+        font-size: 1rem;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 400;
+        color: #2d3248;
+        margin-top: 10px;
+    }
 
-.top-circle {
-    position: relative;
-    right: 800px;
-    bottom: 500px;
-}
+    .clip {
+        background-color: #fff;
+        clip-path: circle(50% at center);
+        height: 91px;
+        width: 91px;
+        position: absolute;
+        right: 130px;
+        top: 80px;
+    }
 
-.victor {
-    clip-path: circle(50% at center);
-    position: absolute;
-    top: 5px;
-    right: 5px;
+    .main-square {
+        background-color: #fff;
+        border-radius: 20px;
+        position: absolute;
+        left: 10px;
+        top: 150px;
+        height: 350px;
+        overflow: hidden;
+        filter: drop-shadow(0 15mm 3rem #106870);
+    }
+
+    .name, .age {
+        display: inline;
+        font-size: 1.125rem;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    .name {
+        color: #2d3248;
+    }
+
+    .name-age {
+        margin-top: 40px;
+    }
+
+    .num-desc {
+        font-size: 0.9rem;
+    }
+
+    .stats {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .stats-name {
+        font-size: 1rem;
+    }
+
+    .top-circle {
+        position: relative;
+        width: 600px;
+        right: 350px;
+        bottom: 350px;
+    }
+
+    .victor {
+        clip-path: circle(50% at center);
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 82px;
+    }
 }
