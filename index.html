@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Profile card component</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+    <img class="top-circle" src="images/bg-pattern-top.svg" alt="">
+    <img class="bottom-circle" src="images/bg-pattern-bottom.svg" alt="">
+    <div class="main-square">
+        <img class="banner" src="images/bg-pattern-card.svg" alt="">
+        <div class="clip">
+            <img class="victor" src="images/image-victor.jpg" alt="profile-img">
+        </div>
+        <div class="name-age">
+            <h1 class="name">Victor Crest</h1>
+            <h1 class="age">26</h1>
+            <p class="city">London</p </div>
+            <div class="numbers">
+                <h1>80K</h1>
+                <p>Followers</p>
 
-  80K
-  Followers
+                <h1>803K</h1>
+                <p>Likes</p>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                <h1>1.4K</h1>
+                <p>Photos</p>
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Your Name Here</a>.
+        </div>
 </body>
+
 </html>
