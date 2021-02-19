@@ -1,4 +1,7 @@
 body {
+    background: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: calc(50vw - 1000px) calc(50vh - 900px), calc(50vw) calc(100vh - 550px);
     background-color: #19a2ae;
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
@@ -12,12 +15,29 @@ hr {
     margin: 0;
 }
 
-.age {
+.banner {
+    margin: 0;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    filter: drop-shadow(0 15mm 3rem #106870);
+}
+
+.block_age {
     color: #969696;
 }
 
-.banner {
-    margin: 0;
+.block_name, .block_age {
+    font-size: 1.125rem;
+}
+
+.block_name {
+    color: #2d3248;
 }
 
 .bottom-circle {
@@ -34,7 +54,6 @@ hr {
 
 .city, .num-desc {
     font-size: 1rem;
-
     font-weight: 400;
     color: #2d3248;
 }
@@ -55,24 +74,6 @@ hr {
 
 .footer {
     display: block;
-}
-
-.main-square {
-    background-color: #fff;
-    border-radius: 20px;
-    height: 350px;
-    width: 350px;
-    overflow: hidden;
-    filter: drop-shadow(0 15mm 3rem #106870);
-}
-
-.name, .age {
-    font-size: 1.125rem;
-    font-weight: 700;
-}
-
-.name {
-    color: #2d3248;
 }
 
 .num-desc {
